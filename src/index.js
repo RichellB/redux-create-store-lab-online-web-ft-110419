@@ -40,3 +40,5 @@ function createStore(reducer) {
   };
 };
  
+let store = createStore();
+store.dispatch({ type: '@@INIT' }); 
